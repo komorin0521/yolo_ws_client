@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- link rel="stylesheet" href="style.css" -->
+	<title>Webカメラの映像を画像化</title>
+</head>
+<body>
+    <h1> darknet demo </h1>
+	<video id="camera" autoplay width="240" height="180"></video>
+	<canvas id="pred_canvas" width="240" height="180" ></canvas>
+	<canvas id="canvas" width="240" height="180" style="visibility:hidden"></canvas>
+
+
+	<img id="img" width="240" height="180" style="display:none">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
